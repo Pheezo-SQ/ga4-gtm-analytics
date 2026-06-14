@@ -32,6 +32,8 @@ A full end-to-end analytics project built on real Google Analytics 360 data from
 ---
 
 ## Project Structure
+
+
 ga4-gtm-analytics/
 ├── data/
 │   ├── raw/                          # Original BigQuery CSV exports
@@ -45,13 +47,13 @@ ga4-gtm-analytics/
 │   └── 05_cohort_rfm_analysis        # Cohort analysis + RFM segmentation
 ├── queries/                          # Saved BigQuery SQL files
 ├── reports/                          # All generated chart PNGs
+├── dashboard/                        # Power BI dashboard file
 ├── docs/
 │   ├── gtm_tag_audit.md             # GTM tag audit findings
 │   ├── tracking_issue_resolution.md  # Data integrity case study
 │   ├── kpi_dashboard_walkthrough.md  # KPI dashboard design rationale
 │   └── cdp_integration_approach.md  # CDP + CRM integration architecture
 └── README.md
----
 
 ## Tools & Stack
 
