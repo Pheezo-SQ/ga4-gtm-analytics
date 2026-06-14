@@ -32,7 +32,7 @@ A full end-to-end analytics project built on real Google Analytics 360 data from
 ---
 
 ## Project Structure
-
+```
 
 ga4-gtm-analytics/
 ├── data/
@@ -54,6 +54,7 @@ ga4-gtm-analytics/
 │   ├── kpi_dashboard_walkthrough.md  # KPI dashboard design rationale
 │   └── cdp_integration_approach.md  # CDP + CRM integration architecture
 └── README.md
+```
 
 ## Tools & Stack
 
